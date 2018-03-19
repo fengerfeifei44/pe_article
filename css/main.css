@@ -144,6 +144,9 @@ html,body{
 #content .left table tr td{
     padding: 0 25px;
 }
+#content .left table tr:last-child td{
+    padding-bottom: 12px;
+}
 #content .left table p{
     text-indent: 0em;
 }
