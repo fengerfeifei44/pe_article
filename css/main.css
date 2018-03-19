@@ -1,0 +1,226 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#w1200{
+    margin: 0 auto;
+    width: 1200px;
+    font-family: "Microsoft YaHei"!important;
+}
+
+#nav p{
+    margin: 0;
+}
+#nav .nav_logo{
+    height: 121px;
+    line-height: 121px;
+    border-bottom: 4px solid #195788;
+}
+#nav .nav_logo img{
+    height: 64px;
+    vertical-align: middle;
+}
+#nav .nav_title>p{
+    float: left;
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #1a598c;
+    line-height: 25px;
+}
+#nav .nav_title>span{
+    float: right;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #949494;
+}
+#content{
+    padding-top: 38px;
+}
+#content .left{
+    position:relative;
+    float: left;
+    width: 825px;
+    min-height: 710px;
+    padding-bottom: 110px;
+
+}
+#content .left .page{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 30px 0 40px;
+}
+#content .left .page p{
+    text-indent: 0em;
+}
+#content .left .page p span{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1a598c;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+#content .left .page p .next{
+    margin-left: 40px;
+}
+#content .left .page p{
+    float: right;
+}
+#content .left h1{
+    margin: 0 0 24px 0;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1a598c;
+    font-weight: normal;
+
+}
+#content .left h2{
+    margin: 12px 0 9px 0;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #333;
+}
+#content .left h4{
+    margin: 12px 0 9px 0;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+    letter-spacing:1px;
+}
+#content .left p{
+    text-indent: 2em;
+    margin: 0 0 2px 0;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #444444;
+}
+#content .left ul{
+    margin:0;
+}
+#content .left ul li{
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+}
+#content .left ul li strong{
+    font-weight: normal;
+}
+#content .left table{
+    margin-top: 15px;
+    border: 1px solid #b2b2b2;
+
+}
+#content .left table strong{
+    font-weight: normal;
+    font-family: "Microsoft YaHei" !important;
+}
+#content .left table tr:nth-child(1){
+    height: 40px;
+}
+#content .left table tr:nth-child(1) td{
+
+    border-bottom: 1px solid #b2b2b2;
+}
+#content .left table tr td{
+    padding: 0 25px;
+}
+#content .left table p{
+    text-indent: 0em;
+}
+#content .left table tr td:nth-child(1){
+    width: 300px;
+    border-right: 1px solid #b2b2b2;
+}
+#content .right{
+    float: right;
+    width: 290px;
+    font-family: "Microsoft YaHei" !important;
+
+}
+#content .right .code{
+    margin-top: 52px;
+    text-align: center;
+}
+#content .right .code img{
+    width: 185px;
+}
+#content .right .code span{
+    margin-top: 25px;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #444444;
+}
+#content .right .menu ul,#content .right .menu li,#content .right .menu p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#content .right .menu{
+    margin-top: 40px;
+    box-shadow: 0px 0px 8px 0px
+    rgba(0, 0, 0, 0.16);
+}
+#content .right .menu .title{
+    padding: 24px 0 18px 0;
+    border-bottom: 1px dashed  #b2b2b2;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #1a598c;
+}
+#content .right .menu .list{
+    padding: 20px  28px 12px 28px;
+}
+#content .right .menu .list>li{
+    margin-bottom: 8px;
+    cursor: pointer;
+
+}
+#content .right .menu .list p{
+    float: left;
+    width: 185px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #444;
+}
+#content .right .menu .list p:hover{
+    color: #1a588a;
+}
+#content .right .menu .list p.on{
+    color: #1a588a;
+}
+#content .right .menu .list span{
+    float: right;
+    font-size: 14px;
+    color: #1a588a;
+}
+#foot{
+    border-top: 1px solid #1a598c;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 10px;
+    color: #444;
+}
